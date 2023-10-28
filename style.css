@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  background-color: #eae0cc;
+}
+
+.cabecalho-img {
+  height: 100px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 35px;
+  color: #822e81;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.botao {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background-color: #c97064;
+  border-radius: 50%;
+}
+
+.conteudo {
+  border-top: #c97094 0.4px solid;
+  background-color: #f4f4f4;
+  color: #182825;
+}
+
+.primeiro-conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 500px;
+  text-align: justify;
+}
+
+.conteudo-escrito-titulo {
+  font-size: 48px;
+}
+
+.thais-img {
+  height: 450px;
+  border-radius: 20%;
+  border: 6px solid #e6adec;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.segundo-conteudo {
+  border-top: #66a182 1px solid;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.segundo-conteudo-titulo {
+  font-size: 35px;
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+.terceiro-conteudo {
+  border-top: #66a182 1px solid;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.filmes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.terceiro-conteudo-titulo {
+  font-size: 35px;
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+.filme-item {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+}
+
+.filme-item img {
+  max-width: 100%;
+  max-height: 320px;
+  height: auto;
+  border: 5px solid #c97064;
+  border-radius: 5px;
+}
+
+.filme-item p {
+  text-align: justify;
+  padding: 15px;
+}
+
+.quarto-conteudo {
+  border-top: #66a182 1px solid;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.quarto-conteudo-titulo {
+  font-size: 35px;
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+.valores {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  gap: 100px;
+}
+
+.imagem {
+  max-width: 100%;
+  max-height: 120px;
+  height: auto;
+}
+
+.quinto-conteudo {
+  border-top: #66a182 1px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.quinto-conteudo-titulo {
+  font-size: 48px;
+  text-align: left;
+}
+
+.pai-img {
+  height: 400px;
+  border-radius: 20%;
+  border: 6px solid #e6adec;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sexto-conteudo {
+  border-top: #66a182 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pading: 48px;
+  gap: 10px;
+  border-bottom: #c97094 0.4px solid;
+}
+
+.sexto-conteudo-titulo {
+  font-size: 35px;
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+.video {
+  border: 6px solid #66a182;
+  border-radius: 5px;
+  height: 400px;
+  max-width: 100%;
+  margin-bottom: 48px;
+}
+
+.rodape {
+  background: #c287e8;
+  padding: 32px;
+}
+
+#icones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.rede-social-logo {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
